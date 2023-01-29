@@ -29,7 +29,7 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
 
-        if($email == 'admin@klm.com' && $password == 'admin@klm'){
+        if($email == 'admin@kamulegion.com' && $password == 'admin@kamulegion'){
             echo "<script>alert('Log in Success!')</script>";
 			echo "<script>window.location='admin.php'</script>";
         }else{
