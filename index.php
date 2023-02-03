@@ -82,6 +82,21 @@
                     <small><i class="fa fa-phone-alt mr-2"></i>+260 968 494 921</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>info@klm.com</small>
+                    <small class="px-3">|</small>
+                    <div id="google_translate_element"></div>
+
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement(
+                                { pageLanguage: 'en' },
+                                'google_translate_element'
+                            );
+                        }
+                    </script>
+
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                    </script>
+
                 </div>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
@@ -138,7 +153,7 @@
                 </div>
                 <a onclick="sendMessage()" class="btn btn-primary py-2 px-4 d-none d-lg-block">Chat with us!</a>
                 <script>
-                    function sendMessage(){
+                    function sendMessage() {
                         // let message = prompt();
 
                         window.location.href = 'https://wa.me/260962893773?text=From website: Hi, ';
@@ -407,7 +422,7 @@
         <center>
             <h6><- swipe to view more -></h6>
         </center>
-        <div class="owl-carousel courses-carousel" >
+        <div class="owl-carousel courses-carousel">
 
 
             <?php
@@ -419,7 +434,7 @@
         }
 ?>
 
-<?php
+            <?php
     $buyId = 'buy' . $productsArray[$i]['product_id'];
     if(isset($_POST[$buyId])){
         $product_name = $productsArray[$i]['product_name'];
@@ -429,37 +444,38 @@
         echo "<script>window.document.location.href = 'https://wa.me/260962893773?text=From website: Hi, " . $appMessage . "';</script>";
         // header('Location: https://wa.me/260962893773?text=From website: Hi, ' . $appMessage);
 
-        // echo "<script>window.location='index.php'</script>";
+        // echo "<script>window.location = 'index.php'</script>";
     }
 ?>
-    <form action="index.php" method="post">
-            <div class="courses-item position-relative">
-                <img class="img-fluid" src="<?php echo $productsArray[$i]['image_path']?>" alt="">
-                <div class="courses-text">
-                    <h4 class="text-center text-white px-3">
-                        <?php echo $productsArray[$i]['product_name']?>
-                    </h4>
-                    <div class="border-top w-100 mt-3">
-                        <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>K <small>
-                                    <?php echo $productsArray[$i]['product_price']?>
-                                </small> </span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i><small>
-                                    <?php echo $productsArray[$i]['product_time']?>
-                                </small> </span>
+            <form action="index.php" method="post">
+                <div class="courses-item position-relative">
+                    <img class="img-fluid" src="<?php echo $productsArray[$i]['image_path']?>" alt="">
+                    <div class="courses-text">
+                        <h4 class="text-center text-white px-3">
+                            <?php echo $productsArray[$i]['product_name']?>
+                        </h4>
+                        <div class="border-top w-100 mt-3">
+                            <div class="d-flex justify-content-between p-4">
+                                <span class="text-white"><i class="fa fa-user mr-2"></i>K <small>
+                                        <?php echo $productsArray[$i]['product_price']?>
+                                    </small> </span>
+                                <span class="text-white"><i class="fa fa-star mr-2"></i><small>
+                                        <?php echo $productsArray[$i]['product_time']?>
+                                    </small> </span>
+                            </div>
                         </div>
-                    </div>
-                    
-                        <div class="w-100 bg-white text-center p-4">
-                            <input type="submit" name="buy<?php echo $productsArray[$i]['product_id']?>" class="btn btn-primary" value="Buy Product">
-                        </div>
-                    
-                    
-                </div>
-            </div>
-    </form>
 
-                    
+                        <div class="w-100 bg-white text-center p-4">
+                            <input type="submit" name="buy<?php echo $productsArray[$i]['product_id']?>"
+                                class="btn btn-primary" value="Buy Product">
+                        </div>
+
+
+                    </div>
+                </div>
+            </form>
+
+
             <?php
     }
 ?>
@@ -467,7 +483,7 @@
 
 
         <script>
-            function sale(){
+            function sale() {
 
                 let name = document.forms["saleform"]["name"].value;
                 let email = document.forms["saleform"]["email"].value;
@@ -491,26 +507,27 @@
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control bg-light border-0" placeholder="John Doe"
-                                        style="padding: 30px 20px;">
+                                    <input type="text" name="name" class="form-control bg-light border-0"
+                                        placeholder="John Doe" style="padding: 30px 20px;">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" name="desc" class="form-control bg-light border-0" placeholder="Product description"
-                                        style="padding: 30px 20px;">
+                                    <input type="text" name="desc" class="form-control bg-light border-0"
+                                        placeholder="Product description" style="padding: 30px 20px;">
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control bg-light border-0" placeholder="john@xyz.com"
-                                        style="padding: 30px 20px;">
+                                    <input type="email" name="email" class="form-control bg-light border-0"
+                                        placeholder="john@xyz.com" style="padding: 30px 20px;">
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <input class="btn btn-primary btn-block" type="submit" style="height: 60px;" value="Send request Now">
+                                <input class="btn btn-primary btn-block" type="submit" style="height: 60px;"
+                                    value="Send request Now">
                             </div>
                         </div>
                     </form>
@@ -664,15 +681,18 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="subject" class="form-control border-top-0 border-right-0 border-left-0 p-0"
+                                <input type="text" name="subject"
+                                    class="form-control border-top-0 border-right-0 border-left-0 p-0"
                                     placeholder="Subject" required="required">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" class="form-control border-top-0 border-right-0 border-left-0 p-0" rows="5"
+                                <textarea name="message"
+                                    class="form-control border-top-0 border-right-0 border-left-0 p-0" rows="5"
                                     placeholder="Message" required="required"></textarea>
                             </div>
                             <div>
-                                <button name="submit" class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                <button name="submit" class="btn btn-primary py-3 px-5" type="submit">Send
+                                    Message</button>
                             </div>
                         </form>
 
@@ -785,6 +805,10 @@
     <script src="js/main.js"></script>
 
     <script src="js/index.js"></script>
+
+
+
+
 </body>
 
 </html>
