@@ -94,8 +94,9 @@
                         }
                     </script>
 
-                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-                    </script>
+                    <script type="text/javascript"
+                        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                        </script>
 
                 </div>
             </div>
@@ -538,7 +539,187 @@
     </div>
     <!-- Courses End -->
 
+    <!--NEW CONTENT START-->
 
+    <div class="container mt-5">
+        <div class="jumbotron jumbotron-fluid bg-success text-white">
+            <div class="container">
+                <p class="lead">KAMU LEGION MINING AND CONTRACTOR is a regional company based in Zambia with its
+                    activities in the DR. Congo and Angola.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Assignment</h2>
+                        <p class="card-text">Explore, develop deposits containing economically profitable mineral
+                            substances, among other things:</p>
+                        <ul>
+                            <li>Ores of 3 T and its attendants</li>
+                            <li>Cu Minerals and its associates</li>
+                            <li>Gold etc</li>
+                        </ul>
+                        <p class="card-text">The activities are carried out while ensuring international standards.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Process and concentrate raw ores</h2>
+                        <p class="card-text">The marketing of certain metals</p>
+                        <p class="card-text">The management of certain hydroelectric power stations located in the DR
+                            Congo while producing energy to the distribution network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-danger" role="alert">
+            <h2 class="alert-heading">STRUCTURE OF MANAGEMENT BODIES</h2>
+            <p>It is composed as follows:</p>
+            <ul>
+                <li>Board of Directors;</li>
+                <li>Management Committee: composed as follows:</li>
+                <ul>
+                    <li>General manager;</li>
+                    <li>Deputy Managing Director assisted by three operational departments, namely the Technical
+                        Department, the Administrative and Financial Department and the Marketing Department.</li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h2 class="card-title">CONDITIONS FOR ANY OPERATION</h2>
+                <p class="card-text">Write a letter of intent to the Director General of the company at the address
+                    below:</p>
+                <p class="card-text">Email: kamulmining@gmail.com</p>
+                <p class="card-text">Contact:</p>
+                <ul>
+                    <li>+243891854213</li>
+                    <li>+260969596655</li>
+                </ul>
+                <p class="card-text">In your letter of intent, please present your company, in particular the
+                    operational and financial capacity and then the references of your projects already carried out in
+                    the world as well as the profile of your company.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="newImages/image (1).jpeg" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (2).jpeg" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (3).jpeg" alt="Slide 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (4).jpeg" alt="Slide 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (5).jpeg" alt="Slide 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (6).jpeg" alt="Slide 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (7).jpeg" alt="Slide 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (8).jpeg" alt="Slide 8">
+                    </div> 
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (9).jpeg" alt="Slide 9">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (10).jpeg" alt="Slide 10">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (11).jpeg" alt="Slide 11">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (12).jpeg" alt="Slide 12">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (13).jpeg" alt="Slide 13">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (14).jpeg" alt="Slide 14">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (15).jpeg" alt="Slide 15">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (16).jpeg" alt="Slide 16">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (17).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (18).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (19).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (20).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (21).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (22).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (23).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (24).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (25).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (26).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (27).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (28).jpeg" alt="Slide 17">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="newImages/image (29).jpeg" alt="Slide 17">
+                    </div>
+
+                </div>
+
+
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--NEW CONTENT START-->
     <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
