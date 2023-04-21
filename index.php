@@ -731,7 +731,7 @@
                 <div class="team-item">
                     <img class="img-fluid w-100" src="img/user.png" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Kalawa B. Kisimba</h5>
+                        <h5 class="mb-3">Kalwa B. Kisimba</h5>
                         <p class="mb-2">Director General</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -819,7 +819,7 @@
                             </div>
                             <div class="mt-n1">
                                 <h4>Our Location</h4>
-                                <p class="m-0">170 Intambalukuta Road, Lubengele, Chililabombwe – Zambia.</p>
+                                <p class="m-0">Plot No. 23, Heartbeest, Chililabombwe Central Town</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
@@ -915,7 +915,7 @@
             <div class="row">
                 <div class="col-md-4 mb-5">
                     <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>170 Intambalukuta Road, Lubengele</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>Plot No. 23, Heartbeest, Chililabombwe Central Town</p>
                     <p><i class="fa fa-phone-alt mr-2"></i>+260 968 494 921</p>
                     <p><i class="fa fa-envelope mr-2"></i>info@klm.com</p>
                     <div class="d-flex justify-content-start mt-4">
